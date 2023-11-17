@@ -1,0 +1,290 @@
+.button {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0);
+    border: .2em solid #9f2b00;
+    font-family: EB Garamond, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    position: absolute;
+    top: auto;
+    bottom: 43%;
+    left: 7%;
+    right: auto;
+  }
+  
+  .button.current {
+    bottom: 31%;
+  }
+  
+  .button.current2 {
+    bottom: 19%;
+  }
+  
+  .button.current3 {
+    bottom: 7%;
+  }
+  
+  .section-6 {
+    display: flex;
+  }
+  
+  .div-block-8 {
+    align-self: center;
+    position: absolute;
+    top: 79px;
+    bottom: 0%;
+    left: 42px;
+    right: 0%;
+  }
+  
+  .div-block-9 {
+    width: 50em;
+    height: 30em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    display: flex;
+    position: absolute;
+    top: auto;
+    bottom: 5em;
+    left: auto;
+    right: 6em;
+  }
+  
+  .link-block-2 {
+    color: #9f2b00;
+    font-family: EB Garamond, sans-serif;
+    font-weight: 600;
+  }
+  
+  .button-2 {
+    color: #9f2b00;
+    background-color: rgba(56, 152, 236, 0);
+    margin-top: 2.3em;
+    font-family: EB Garamond, sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 43px;
+  }
+  
+  .image-2 {
+    margin-top: 1.9em;
+    margin-left: 50em;
+    position: fixed;
+  }
+  
+  .text-block-2 {
+    color: #9f2b00;
+    text-align: center;
+    margin-top: 2.3em;
+    font-family: EB Garamond, sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    position: absolute;
+    top: 93px;
+  }
+  
+  .text-block-3 {
+    color: #9f2b00;
+    font-family: EB Garamond, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    position: absolute;
+    left: auto;
+    right: 350px;
+  }
+  
+  .body-4, .body-5, .body-6 {
+    background-color: #fff;
+    background-image: url("https://uploads-ssl.webflow.com/643bc06870dd8aaac005c483/643bc35536d401979b979960_image%2013.png");
+    background-position: 0 0;
+    background-size: 100% 100%;
+  }
+  
+  .body-7, .body-8 {
+    background-image: url("https://uploads-ssl.webflow.com/643bc06870dd8aaac005c483/643bc35536d401979b979960_image%2013.png");
+    background-position: 0 0;
+    background-size: 100% 100%;
+  }
+  
+  .body-9, .body-10, .body-11 {
+    background-color: #fff;
+    background-image: url("https://uploads-ssl.webflow.com/643bc06870dd8aaac005c483/643bc35536d401979b979960_image%2013.png");
+    background-position: 0 0;
+    background-size: 100% 100%;
+  }
+  
+  .body-12, .body-13, .body-14, .body-15, .body-16, .body-17 {
+    background-image: url("https://uploads-ssl.webflow.com/643bc06870dd8aaac005c483/643bc35536d401979b979960_image%2013.png");
+    background-position: 0 0;
+    background-size: 100% 100%;
+  }
+  
+  .html-embed-3, .html-embed-4, .html-embed-5, .html-embed-6, .html-embed-7, .html-embed-8, .html-embed-9 {
+    margin-right: 20em;
+  }
+  
+  @media screen and (max-width: 991px) {
+    body {
+      height: 100vh;
+      overflow: hidden;
+    }
+  
+    .container {
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+  
+    .container.is--map {
+      padding-top: 10.5em;
+      padding-bottom: 16.8em;
+    }
+  
+    .container.is--bottom {
+      font-size: 1.1em;
+    }
+  
+    .hero__card {
+      transform: rotateX(20deg)rotateY(-3deg)rotateZ(-9deg);
+    }
+  
+    .map {
+      font-size: 1.5em;
+    }
+  
+    .bar__name {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 1.8vw;
+    }
+  
+    h2 {
+      font-size: 2.4em;
+    }
+  
+    .container.is--hero {
+      height: auto;
+      max-height: none;
+      min-height: auto;
+      flex-direction: column;
+      padding-top: 12.3em;
+    }
+  
+    .container.is--map {
+      align-items: flex-start;
+      padding-left: 2.9em;
+      padding-right: 3em;
+      overflow: scroll;
+    }
+  
+    .container.is--bottom {
+      font-size: .7em;
+    }
+  
+    .nav__logo-img {
+      width: 9em;
+    }
+  
+    .nav__menu {
+      display: none;
+    }
+  
+    .nav__icon {
+      margin-left: 0;
+    }
+  
+    .hero__right {
+      width: 42em;
+      margin-top: 7.2em;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 0;
+    }
+  
+    .hero__card-shine {
+      margin-top: -18.6em;
+      margin-left: 26.2em;
+    }
+  
+    .calc__contain {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .map, .map:hover {
+      font-size: 1.6vh;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    h2 {
+      font-size: 3.7em;
+    }
+  
+    p {
+      font-size: 1.7em;
+    }
+  
+    .container.is--hero {
+      padding-top: 15.4em;
+    }
+  
+    .container.is--map {
+      padding-top: 9.1em;
+      padding-bottom: 25.5em;
+    }
+  
+    .container.is--bottom {
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 4.2em;
+      padding-bottom: 4.2em;
+      font-size: 1em;
+    }
+  
+    .hero__button {
+      margin-top: 1.5em;
+      font-size: 1.4em;
+    }
+  
+    .hero__left {
+      width: 91%;
+    }
+  
+    .hero__right {
+      width: 100%;
+      margin-top: 8.4em;
+    }
+  
+    .hero__video {
+      height: 55em;
+    }
+  
+    .hero__card {
+      font-size: 1.1em;
+    }
+  
+    .calc__contain {
+      grid-column-gap: 3em;
+      grid-row-gap: 3em;
+      grid-template-columns: 1fr;
+    }
+  
+    .contain {
+      font-size: 1.9em;
+    }
+  
+    .slider__contain {
+      width: 100%;
+    }
+  
+    .map, .map:hover {
+      font-size: 1.6vh;
+    }
+  }
+  
+  
